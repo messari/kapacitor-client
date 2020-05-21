@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/shaodan/kapacitor-client/influxql/neldermead"
+	"github.com/messari/kapacitor-client/influxql/neldermead"
 )
 
 // FloatMeanReducer calculates the mean of the aggregated points.

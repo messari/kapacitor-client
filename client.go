@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/shaodan/kapacitor-client/influxql"
+	"github.com/messari/kapacitor-client/influxql"
 )
 
 const DefaultUserAgent = "KapacitorClient"

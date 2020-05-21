@@ -6,7 +6,7 @@ I just make it compatible with GoModule.
 # Install
 > NOTE: You DON'T need manually install this package if GO111MODULE=on.
 
-go get github.com/shaodan/kapacitor-client
+go get github.com/messari/kapacitor-client
 
 
 ## Usage
@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"log"
 
-	client "github.com/shaodan/kapacitor-client"
+	client "github.com/messari/kapacitor-client"
 )
 
 k, err := client.New(client.Config{

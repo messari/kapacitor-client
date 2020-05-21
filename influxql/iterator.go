@@ -11,7 +11,7 @@ import (
 	"github.com/influxdata/influxdb/models"
 
 	"github.com/gogo/protobuf/proto"
-	internal "github.com/shaodan/kapacitor-client/influxql/internal"
+	internal "github.com/messari/kapacitor-client/influxql/internal"
 )
 
 // ErrUnknownCall is returned when operating on an unknown function call.
